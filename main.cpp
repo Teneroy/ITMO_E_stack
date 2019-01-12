@@ -22,7 +22,9 @@ int main()
     a.pop();
     a.pop();
     a.pop();
+    a.print();
     a.pop();
+    std::cout << "Empty: " << a.empty() << std::endl;
     a.push(x);
     a.push(y);
     a.print();

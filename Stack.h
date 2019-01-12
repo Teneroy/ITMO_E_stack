@@ -11,18 +11,15 @@ using namespace arrlist;
 class Stack
 {
 public:
-    Stack();
-    ~Stack();
     void push(elem x);
     elem pop();
     elem top();
     void makenull();
     void print();
-private:
     bool full();
     bool empty();
+private:
     List _ob;
-    int _size;
 };
 
 #endif //ITMO_E_STACK_STACK_H
