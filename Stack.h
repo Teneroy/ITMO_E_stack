@@ -4,7 +4,6 @@
 
 #ifndef ITMO_E_STACK_STACK_H
 #define ITMO_E_STACK_STACK_H
-#define S_SIZE 4
 #include "../ITMO_E_listmerge/List.h"
 using namespace arrlist;
 
